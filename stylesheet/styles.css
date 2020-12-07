@@ -1,11 +1,36 @@
 body {
-  background-color: #f4f5f6;
+  box-sizing: border-box;
+  
 }
 
 nav {
   background-color: #f72210;
   height: 50px;
 }
+
+
+.pad_left_20{
+  padding-left: 20px;
+}
+
+.pad_left_10{
+  padding-left: 10px;
+}
+
+.flex_box{
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.top_grid_box{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5;
+  
+  background-color: #f4f5f6;
+}
+
 
 .float_right {
   float: right;
