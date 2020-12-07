@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-top-middle {
-  background-color: red;
+  background-color: r;
 }
 .navbar-top-right li {
   display: inline-flex;
@@ -14,14 +14,19 @@ body {
 .navbar-top-left {
 }
 
+.fas {
+  font-size: 90px;
+  color: blue;
+  height: 40px;
+}
 .none {
   display: none;
 }
 .navbar-top {
-  background-color: red;
+  background-colorred;
   padding: 12px;
 }
-.navbar-right {
+.navbar-righ {
   display: none;
 }
 .category {
