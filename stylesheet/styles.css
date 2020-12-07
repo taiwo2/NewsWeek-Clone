@@ -2,48 +2,44 @@ body {
   background-color: #f4f5f6;
 }
 
-.navbar-top-middle {
-  background-color: r;
-}
-.navbar-top-right li {
-  display: inline-flex;
-  justify-content: space-between;
-  margin-left: 5px;
-  list-style: none;
-}
-.navbar-top-left {
+nav {
+  background-color: #f72210;
+  height: 50px;
 }
 
-.fas {
-  font-size: 90px;
-  color: blue;
-  height: 40px;
+.float_right {
+  float: right;
+  margin: 8px;
 }
-.none {
-  display: none;
+
+.logo {
+  height: 35px;
 }
-.navbar-top {
-  background-colorred;
-  padding: 12px;
-}
-.navbar-righ {
-  display: none;
-}
-.category {
-  display: block;
-  font: bold 17px/16px 'Roboto Condensed', sans-serif;
-  color: #f72210;
+
+.round_shape {
+  border-radius: 25px;
+  background-color: #ffe400;
+  width: 100px;
+  height: 30px;
   text-transform: uppercase;
-  padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+  color: black;
 }
 
-.wrap {
-  position: relative;
-  min-height: 33px;
-  margin-bottom: 10px;
+.hambrgr {
+  color: #f4f5f6;
+}
+
+.mob_nav {
+  padding-top: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top {
+  max-width: 100%;
 }
