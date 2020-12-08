@@ -132,6 +132,13 @@ figure img {
   background: #c2d4d7;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .culture-and-travel-section {
     display: grid;
@@ -194,4 +201,79 @@ figure img {
 .sponsored-section header {
   padding: 1rem;
   border: 1px solid #e6e6e6;
+}
+
+.editor {
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 487px) {
+  .editor,
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 999px) {
+  .editor {
+    box-sizing: border-box;
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .editor img {
+    height: 200px;
+    width: 250px;
+  }
+
+  .editor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 10px;
+  }
+
+  .editor header {
+    width: 250px;
+    padding-bottom: 7px;
+  }
+
+  .editor h3 {
+    width: 270px;
+  }
+
+  .d-flex article {
+    margin-left: 20px;
+  }
+
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex1 img {
+    height: 130px;
+    width: 150px;
+  }
+
+  .flex1 article {
+    display: inline-flex;
+  }
+  .flex1 h3,
+  h4 {
+    margin-left: 7px;
+  }
+
+  .mb-3 {
+    border-bottom: 3px solid whitesmoke;
+  }
 }

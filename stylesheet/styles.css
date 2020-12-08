@@ -1,5 +1,14 @@
 body {
-  box-sizing: border-box;
+  background-color: #f4f5f6;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1310px;
 }
 /* main-header */
 
@@ -130,6 +139,28 @@ main,
   }
 }
 
+.opinion-bar {
+  display: block;
+}
+
+.opinion-bar img {
+  /* transform: translateX(-0%); */
+  width: auto;
+  max-width: inherit;
+  height: 63px;
+  /* left: 50%; */
+}
+
+.opinion-bar article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.opinion-bar figure {
+  margin-right: 7px;
+}
+
 .main-nav {
   position: relative;
 }
@@ -221,6 +252,9 @@ h1 {
   font-weight: 700;
 }
 
+/*@media only screen and (min-width: 768px){*/
+  
+
 .color_red
 {
   color: red;
@@ -249,5 +283,4 @@ h1 {
 
   font-weight: 800;
 }
-
 
