@@ -130,6 +130,28 @@ main,
   }
 }
 
+.opinion-bar {
+  display: block;
+}
+
+.opinion-bar img {
+  /* transform: translateX(-0%); */
+  width: auto;
+  max-width: inherit;
+  height: 63px;
+  /* left: 50%; */
+}
+
+.opinion-bar article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.opinion-bar figure {
+  margin-right: 7px;
+}
+
 .main-nav {
   position: relative;
 }
