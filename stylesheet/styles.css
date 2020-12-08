@@ -199,53 +199,41 @@ h1 {
 
 /*magazine*/
 
-.mag_grid{
-  display:grid;
-  
-  grid-template-rows: repeat(7, 1fr);
- 
-}
-
-.mag_item{
-  width:100%;
-  
-  }
-
-
-.mag_item_top{
-  position: relative;
-  width: 100%;
-}
-
-.mag_item img{
-width: 100%;
-padding-bottom: 10px;
-}
-
-
-.mag_item_top h2{
-   position: absolute;
-   background-color: white;
-   color: red;
-   bottom: 0;
-   left: 0;
-}
-
-.mag_item_down{
-  background-color: lightgray;
-  color: #000;
-  width: 100%;
-  text-align: center;
-  font-size: 30px;
+.pad_top{
   padding-top: 5px;
+
+}
+
+.pad_bot{
   padding-bottom: 5px;
 }
 
-.mag_art_title{
-  font-size: 20px;
-  padding-bottom: 10px;
-  
+.font_size_20{
+  font-size: 20px ;
 }
+
+
+.font_size_10{
+  font-size: 10px;
+}
+
+.font_wt_7{
+  font-weight: 700;
+}
+
+.color_red
+{
+  color: red;
+}
+
+.bottom{
+  bottom:0;
+}
+
+.left{
+  left:0;
+}
+
 
 
 
@@ -257,10 +245,9 @@ padding-bottom: 10px;
 
 .txtred{
   color:red;
-  padding-left: 10px;
+  padding: 5px 5px 5px 5px ;
+
   font-weight: 800;
 }
 
-.mag_art_cap{
-  font-size: 20px;
-}
+
