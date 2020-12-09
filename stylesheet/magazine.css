@@ -7,10 +7,6 @@
   flex: none;
 }
 
-.n-title {
-  text-align: center;
-}
-
 .mag {
   margin-left: 20%;
   text-align: center;
@@ -74,24 +70,6 @@
   padding-bottom: 1.25rem;
 }
 
-.group-images {
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.group-images figure:first-of-type {
-  transform: translateX(44px);
-}
-
-.group-images figure:last-of-type {
-  transform: translate(-44px, 12px);
-}
-
-.group-images img {
-  width: initial;
-}
-
 .subscription header {
   padding: 0.5rem 1rem 0 1rem;
 }
@@ -135,6 +113,24 @@
   border: 1px solid #d9d9d9;
 }
 
+.group-images {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.group-images figure:first-of-type {
+  transform: translateX(44px);
+}
+
+.group-images figure:last-of-type {
+  transform: translate(-44px, 12px);
+}
+
+.group-images img {
+  width: initial;
+}
+
 @media (min-width: 768px) {
   .sign-up figure img {
     height: 25rem;
@@ -164,6 +160,5 @@
 
   .flex-sn h3 {
     width: 120px;
-    height: ;
   }
 }

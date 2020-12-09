@@ -15,10 +15,6 @@ h1 {
   text-align: center;
 }
 
-.logo a {
-  color: #ddd;
-}
-
 @media (min-width: 768px) {
   h1 {
     font-size: 1.5rem;
@@ -94,11 +90,11 @@ figure img {
   font-size: 0.8125rem;
 }
 
+header a,
+article a,
 .login a,
 .main-nav a,
-.left-side a,
-header a,
-article a {
+.left-side a {
   text-decoration: none;
   color: inherit;
 }
@@ -151,11 +147,13 @@ nav li:hover {
   .culture-and-travel-section h2 {
     grid-column: 1 / -1;
   }
+
   .sponsored-section article {
     max-width: 330px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .sponsored-section h3,
   .featured-section h3 {
     font-size: 1.375rem;
@@ -211,13 +209,7 @@ nav li:hover {
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
-/* .mg-grid {
-  display: block;
-  border: 2px solid black;
-  width: 100%;
 
-
-} */
 @media (min-width: 487px) {
   .editor,
   .feature {
@@ -261,17 +253,9 @@ nav li:hover {
     outline: 0 none;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-  }
-
-  .editor img {
-    height: 200px;
-    width: 250px;
-  }
-
-  .editor {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column: 10px;
+    gap: 2rem;
   }
 
   .editor header {
@@ -281,10 +265,6 @@ nav li:hover {
 
   .editor h3 {
     width: 270px;
-  }
-
-  .d-flex article {
-    margin-left: 20px;
   }
 
   .flex1 {
@@ -313,15 +293,22 @@ nav li:hover {
   .word-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 1rem;
   }
+
   .word-grid img {
     height: 100%;
     width: 100%;
   }
 
+  .word1 article {
+    padding-left: 12px;
+  }
+
   .word1 {
     display: inline-flex;
   }
+
   .feat img {
     width: 150px;
   }
