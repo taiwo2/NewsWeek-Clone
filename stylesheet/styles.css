@@ -275,3 +275,99 @@ h1 {
 
   font-weight: 800;
 }
+
+
+/* footer */
+
+footer{
+  background-color: white;
+}
+
+.pg-footer{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.footer-top{
+  margin-top: 10px;
+  border-bottom:gray solid 1px;
+  padding-bottom: 8px;
+}
+
+.color_gray{
+  color:gray;
+}
+
+.no_deco{
+  text-decoration: none;
+}
+
+.font-fam{
+  
+  font-size: 12px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+}
+
+.logo-link{
+  width: 236px;
+  height:36px;
+  padding-right: 10px;
+ 
+}
+
+.social-links li{
+  display: inline;
+  
+}
+
+.footer-bot{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  
+}
+
+.line-hite{
+  line-height: 30px;
+}
+
+.menu-list{
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.ed-list li{
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
+.ed-list li:first-child{
+  padding-left: 10px;
+  border-left:none;
+}
+
+.menu-list li{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.menu-list li:first-child{
+  padding-left: 0px;
+}
+
+@media only screen and (min-width: 768px){
+  .ed-list li{
+    border-left: gray solid 1px;
+      }
+
+  .menu-list li{
+    border-right: gray solid 1px;
+  }
+
+  
+}
