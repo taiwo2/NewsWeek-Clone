@@ -100,12 +100,12 @@
   height: 14px;
 }
 
-.group-images img {
-  width: initial;
-}
-
 .sign-up figure {
   margin: 0;
+}
+
+.group-images img {
+  width: initial;
 }
 
 .sign-up figure img {
