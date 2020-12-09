@@ -49,7 +49,6 @@ main,
   font-weight: 700;
   font-size: 0.875rem;
   color: #fff;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -202,10 +201,6 @@ main,
 .ed-list li:first-child {
   padding-left: 10px;
   border-left: none;
-}
-
-.menu-list li:first-child {
-  padding-left: 0px;
 }
 
 .main-nav ul li:first-of-type {
