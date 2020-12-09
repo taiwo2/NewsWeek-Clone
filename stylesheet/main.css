@@ -240,10 +240,10 @@ nav li:hover {
   }
 
   .h3 {
-    font-size: 27px;
+    font-size: 22px;
     padding-left: 14px;
     float: right;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .h3:hover {
@@ -307,6 +307,7 @@ nav li:hover {
 
   .mb-3 {
     border-bottom: 3px solid whitesmoke;
+    padding-bottom: 10px;
   }
 
   .word-grid {

@@ -239,7 +239,7 @@ h1 {
 }
 
 .font_size_20 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .font_size_10 {
@@ -247,7 +247,7 @@ h1 {
 }
 
 .font_wt_7 {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .color_red {
@@ -315,6 +315,10 @@ footer {
 
 .social-links li {
   display: inline;
+<<<<<<< HEAD
+=======
+  padding-left: 15px;
+>>>>>>> d07208e8313bb37af8c74f09a53c3a2870f76f83
 }
 
 .footer-bot {
@@ -359,4 +363,45 @@ footer {
   .menu-list li {
     border-right: gray solid 1px;
   }
+<<<<<<< HEAD
 }
+=======
+
+  
+}
+
+
+/*category heading css*/
+.cat-heading{
+  color:#F72210;
+  font-size: 22px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.cat-heading:hover{
+  text-decoration: none;
+  color:#F72210;
+}
+
+.category-section h2{
+  padding-bottom: 11px;  
+  padding-left: 20px;
+  
+}
+
+
+.category-section h3{
+  font-size: 22px;
+  line-height: 22px;
+
+}
+
+.featured-slideshows-section h2{
+  padding-bottom: 11px;  
+  padding-left: 20px;
+}
+
+
+
+>>>>>>> d07208e8313bb37af8c74f09a53c3a2870f76f83
