@@ -5,6 +5,11 @@ h1 {
   font-weight: 700;
 }
 
+section p {
+  font-size: 0.9375rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .top-story-section p {
   font-size: 0.8125rem;
 }
@@ -36,17 +41,21 @@ section h3 {
   font-weight: 700;
 }
 
-section p {
-  font-size: 0.9375rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 figure {
   position: relative;
 }
 
 figure img {
   width: 100%;
+}
+
+header a,
+article a,
+.login a,
+.main-nav a,
+.left-side a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .category {
@@ -88,15 +97,6 @@ figure img {
 
 .more-stories-section p {
   font-size: 0.8125rem;
-}
-
-header a,
-article a,
-.login a,
-.main-nav a,
-.left-side a {
-  text-decoration: none;
-  color: inherit;
 }
 
 article :hover {
