@@ -212,7 +212,6 @@ main,
   right: 0;
   content: '';
   border-top: 0.8rem solid rgb(247, 34, 16);
-
 }
 
 /* main */
@@ -313,7 +312,10 @@ footer {
 
 .social-links li {
   display: inline;
+<<<<<<< HEAD
+=======
   padding-left: 15px;
+>>>>>>> d07208e8313bb37af8c74f09a53c3a2870f76f83
 }
 
 .footer-bot {
@@ -358,9 +360,6 @@ footer {
   .menu-list li {
     border-right: gray solid 1px;
   }
-<<<<<<< HEAD
-}
-=======
 
 
 }
@@ -399,4 +398,3 @@ footer {
 
 
 
->>>>>>> d07208e8313bb37af8c74f09a53c3a2870f76f83

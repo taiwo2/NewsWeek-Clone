@@ -100,6 +100,10 @@
   height: 14px;
 }
 
+.group-images img {
+  width: initial;
+}
+
 .sign-up figure {
   margin: 0;
 }
@@ -126,10 +130,6 @@
 
 .group-images figure:last-of-type {
   transform: translate(-44px, 12px);
-}
-
-.group-images img {
-  width: initial;
 }
 
 @media (min-width: 768px) {
