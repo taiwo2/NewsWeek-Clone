@@ -84,7 +84,7 @@
   background-color: #f4f5f6;
 }
 
-.subscription .sign-up-section,
+.subscription .sign-up,
 .subscription .subscribe {
   padding-bottom: 1.25rem;
 }
@@ -148,4 +148,37 @@
 .sign-up header {
   padding: 1.75rem 1rem 1.25rem 1rem;
   border: 1px solid #d9d9d9;
+}
+
+@media (min-width: 768px) {
+  .sign-up figure img {
+    height: 25rem;
+    width: 191px;
+  }
+
+  .flex-sm {
+    display: inline-flex;
+  }
+
+  .flex-sm figure {
+    height: 25rem;
+  }
+
+  .flex-sm h3 {
+    font-size: 20px;
+  }
+
+  .flex-sm p {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .flex-sn {
+    display: inline-flex;
+  }
+
+  .flex-sn h3 {
+    width: 120px;
+    height: ;
+  }
 }
