@@ -128,32 +128,6 @@ nav li:hover {
   }
 }
 
-/* culture&travel-section */
-
-.culture-and-travel-section {
-  margin-bottom: 1.5rem;
-}
-
-.culture-and-travel-section article {
-  margin-bottom: 1rem;
-}
-
-.culture-and-travel-section header {
-  padding: 0.625rem;
-}
-
-.culture-and-travel-section h3 {
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-family: Lora, serif;
-}
-
-.culture-and-travel-section p {
-  font-size: 0.9375rem;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: rgba(39, 39, 39, 0.7);
-}
-
 .mini-category a {
   padding: 0.2rem 0.4rem;
   font-size: 0.8125rem;
@@ -192,9 +166,6 @@ nav li:hover {
     font-size: 0.9375rem;
   }
 }
-
-/* featured-section */
-/* sponsored-section */
 
 .featured-section article {
   margin-bottom: 1.25rem;
