@@ -10,13 +10,15 @@ body {
 .container-xl {
   max-width: 1310px;
 }
+
 /* main-header */
 
-.main-header,
 main,
+.main-header,
 .main-footer {
   background-color: #fff;
 }
+
 .main-header {
   margin-bottom: 2px;
   max-width: 100%;
@@ -44,6 +46,10 @@ main,
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -64,7 +70,6 @@ main,
     left: 50%;
     align-self: auto;
     transform: translateX(-50%);
-    margin: 0 auto;
     width: 396px;
     height: 60px;
   }
@@ -74,11 +79,10 @@ main,
   }
 }
 
-.login a {
+.main-nav ul a {
   font-weight: 700;
-  font-size: 0.875rem;
-  color: #fff;
-  text-decoration: none;
+  font-size: 1.1875rem;
+  color: #000;
 }
 
 .auth a:first-of-type {
@@ -164,6 +168,21 @@ main,
   position: relative;
 }
 
+.social-links li {
+  display: inline;
+  padding-left: 15px;
+}
+
+.ed-list li {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.menu-list li {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .main-nav ul {
   width: 100%;
   display: flex;
@@ -173,17 +192,20 @@ main,
   white-space: nowrap;
 }
 
-.main-nav ul a {
-  font-weight: 700;
-  font-size: 1.1875rem;
-  color: #000;
-}
-
 .main-nav ul li {
   flex-grow: 1;
   line-height: 1.2;
   border-left: 1px solid #d9d9d9;
   list-style-type: none;
+}
+
+.ed-list li:first-child {
+  padding-left: 10px;
+  border-left: none;
+}
+
+.menu-list li:first-child {
+  padding-left: 0px;
 }
 
 .main-nav ul li:first-of-type {
@@ -225,7 +247,7 @@ h1 {
   font-size: 0.8125rem;
 }
 
-/*magazine*/
+/* magazine */
 
 .pad_top {
   padding-top: 5px;
@@ -267,7 +289,6 @@ h1 {
 .txtred {
   color: red;
   padding: 5px 5px 5px 5px;
-
   font-weight: 800;
 }
 
@@ -310,11 +331,6 @@ footer {
   padding-right: 10px;
 }
 
-.social-links li {
-  display: inline;
-  padding-left: 15px;
-}
-
 .footer-bot {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -330,25 +346,6 @@ footer {
   line-height: 30px;
 }
 
-.ed-list li {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.ed-list li:first-child {
-  padding-left: 10px;
-  border-left: none;
-}
-
-.menu-list li {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.menu-list li:first-child {
-  padding-left: 0px;
-}
-
 @media only screen and (min-width: 768px) {
   .ed-list li {
     border-left: gray solid 1px;
@@ -359,7 +356,8 @@ footer {
   }
 }
 
-/*category heading css*/
+/* category heading css */
+
 .cat-heading {
   color: #f72210;
   font-size: 22px;
