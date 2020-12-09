@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://taiwo2.github.io/NewsWeek-Clone/.)
 
 # Getting Started 🚀
 
