@@ -85,7 +85,7 @@ main,
   padding-right: 0.2rem;
 }
 
- .auth a:last-of-type {
+.auth a:last-of-type {
   display: inline-flex;
   align-items: center;
   padding: 0.15rem 0.2rem;
@@ -312,10 +312,7 @@ footer {
 
 .social-links li {
   display: inline;
-<<<<<<< HEAD
-=======
   padding-left: 15px;
->>>>>>> d07208e8313bb37af8c74f09a53c3a2870f76f83
 }
 
 .footer-bot {
@@ -360,41 +357,32 @@ footer {
   .menu-list li {
     border-right: gray solid 1px;
   }
-
-
 }
-
 
 /*category heading css*/
-.cat-heading{
-  color:#F72210;
+.cat-heading {
+  color: #f72210;
   font-size: 22px;
   line-height: 22px;
   text-decoration: none;
 }
 
-.cat-heading:hover{
+.cat-heading:hover {
   text-decoration: none;
-  color:#F72210;
+  color: #f72210;
 }
 
-.category-section h2{
+.category-section h2 {
   padding-bottom: 11px;
   padding-left: 20px;
-
 }
 
-
-.category-section h3{
+.category-section h3 {
   font-size: 22px;
   line-height: 22px;
-
 }
 
-.featured-slideshows-section h2{
+.featured-slideshows-section h2 {
   padding-bottom: 11px;
   padding-left: 20px;
 }
-
-
-

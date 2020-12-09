@@ -49,6 +49,14 @@ figure img {
   width: 100%;
 }
 
+.category {
+  position: absolute;
+  padding: 0.2rem 1rem;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
 header a,
 article a,
 .login a,
@@ -56,14 +64,6 @@ article a,
 .left-side a {
   text-decoration: none;
   color: inherit;
-}
-
-.category {
-  position: absolute;
-  padding: 0.2rem 1rem;
-  bottom: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.9);
 }
 
 .category a {
@@ -280,6 +280,7 @@ nav li:hover {
   .flex1 article {
     display: inline-flex;
   }
+
   .flex1 h3,
   h4 {
     margin-left: 7px;
