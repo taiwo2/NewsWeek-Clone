@@ -84,6 +84,24 @@ figure img {
   font-size: 0.8125rem;
 }
 
+.login a,
+.main-nav a,
+.left-side a,
+header a,
+article a {
+  text-decoration: none;
+  color: inherit;
+}
+
+article :hover {
+  text-decoration-color: red;
+  color: inherit;
+}
+
+nav li:hover {
+  text-decoration-color: red;
+}
+
 @media (min-width: 768px) {
   .more-stories-section p {
     font-size: 0.9375rem;
@@ -220,6 +238,36 @@ figure img {
   }
 }
 
+@media (min-width: 787px) {
+  .feat {
+    border: 2px solid black;
+  }
+
+  .feat img {
+    max-width: 200px;
+  }
+
+  .feat article {
+    display: inline-flex;
+  }
+
+  .feat figure {
+    margin-right: 30px;
+  }
+
+  .h3 {
+    font-size: 27px;
+    padding-left: 14px;
+    float: right;
+    font-weight: 500;
+  }
+
+  .h3:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 68, 0, 0.967);
+  }
+}
+
 @media (min-width: 999px) {
   .editor {
     box-sizing: border-box;
@@ -275,5 +323,21 @@ figure img {
 
   .mb-3 {
     border-bottom: 3px solid whitesmoke;
+  }
+
+  .word-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .word-grid img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .word1 {
+    display: inline-flex;
+  }
+  .feat img {
+    width: 150px;
   }
 }
