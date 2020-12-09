@@ -230,6 +230,13 @@ nav li:hover {
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
+/* .mg-grid {
+  display: block;
+  border: 2px solid black;
+  width: 100%;
+
+
+} */
 @media (min-width: 487px) {
   .editor,
   .feature {
@@ -239,10 +246,6 @@ nav li:hover {
 }
 
 @media (min-width: 787px) {
-  .feat {
-    border: 2px solid black;
-  }
-
   .feat img {
     max-width: 200px;
   }

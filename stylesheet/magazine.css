@@ -1,0 +1,59 @@
+.n-title {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-left: 100px;
+  text-align: center;
+  flex: none;
+}
+
+.n-title {
+  text-align: center;
+}
+
+/* .mag > h2 {
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid #d9d9d9;
+} */
+
+/* .mag h2 {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem 0 1rem 0;
+  font-size: 1.1875rem;
+  color: #333;
+} */
+
+.mag {
+  margin-left: 20%;
+  text-align: center;
+  display: block;
+}
+
+.h2 {
+  margin-left: 20%;
+}
+
+.maga {
+  display: flex;
+  margin-left: 40%;
+}
+.mage {
+  font-size: 1.4rem;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.maga ul {
+  display: inline-flex;
+  align-items: center;
+}
+
+.mag li {
+  margin-left: 10px;
+}

@@ -230,57 +230,48 @@ h1 {
 
 /*magazine*/
 
-.pad_top{
+.pad_top {
   padding-top: 5px;
-
 }
 
-.pad_bot{
+.pad_bot {
   padding-bottom: 5px;
 }
 
-.font_size_20{
-  font-size: 20px ;
+.font_size_20 {
+  font-size: 20px;
 }
 
-
-.font_size_10{
+.font_size_10 {
   font-size: 10px;
 }
 
-.font_wt_7{
+.font_wt_7 {
   font-weight: 700;
 }
 
 /*@media only screen and (min-width: 768px){*/
-  
 
-.color_red
-{
+.color_red {
   color: red;
 }
 
-.bottom{
-  bottom:0;
+.bottom {
+  bottom: 0;
 }
 
-.left{
-  left:0;
+.left {
+  left: 0;
 }
 
-
-
-
-.bgred{
+.bgred {
   background-color: red;
   color: white;
-  
 }
 
-.txtred{
-  color:red;
-  padding: 5px 5px 5px 5px ;
+.txtred {
+  color: red;
+  padding: 5px 5px 5px 5px;
 
   font-weight: 800;
 }
-
