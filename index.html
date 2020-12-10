@@ -52,7 +52,7 @@
           <div class="d-flex align-items-center mt-1 mb-1">
             <i class="fa fa-user fa-1x d-lg-none d-md-none"></i>
             <a href="#" class="d-none d-md-block"> login </a>
-            <button type="button" class="btn-sub mr-1 ml-3 mr-xl-3 pl-3 pr-3 border-0 rounded-pill font-weight-bold text-uppercase">Subscribe <i class="fa fa-chevron-right"></i></button>
+            <button type="button" class="btn-sub mr-1 ml-3 mr-xl-3 pl-1 pr-1 border-0 rounded-pill font-weight-bold text-uppercase">Subscribe <i class="fa fa-chevron-right"></i></button>
           </div>
           <div class="menu-icon d-lg-none">
             <div class="menu-bar"></div>
@@ -76,7 +76,7 @@
           <li><a href="#">Weather</a></li>
           <li>
             <label class="d-flex align-self-center m-0" for="search-input">
-              <input id="search-input" type="text" placeholder="Search" />
+              <input class="search-input" type="text" placeholder="Search" />
               <i class="icon i-search align-self-end"></i>
             </label>
           </li>
@@ -1145,8 +1145,8 @@
       <aside class="subscription row mx-0">
         <section class="subscribe col-13 col-lg-7 col-xl-8 px-0">
           <h2>SUBSCRIBE</h2>
-          <article class="flex-sn">
-            <div class="group-images">
+          <article class="flex-sn d-flex mr-3">
+            <div class="group-images pt-5 pb-4">
               <figure>
                 <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&q=95&f=c1d5601167747525a4d15e56749350ec" alt="feature book" />
               </figure>
@@ -1173,16 +1173,16 @@
         <section class="sign-up col-13 col-lg-5 col-xl-4 px-0">
           <h2>NEWSLETTER</h2>
           <article class="flex-sm">
-            <figure>
+            <figure class="pt-4">
               <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="feature book" />
             </figure>
             <header>
               <h3>The Starting 5</h3>
               <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
-              <form class="news-form for-pad">
-                <input type="text" name="email" class="form-text ml-md-2 ml-lg-0 mb-3" placeholder="Email address" />
+              <form class="news-form d-flex d-lg-block d-sm-block d-md-flex for-pad">
+                <input type="text" name="email" class="form-text ml-0 ml-lg-0" placeholder="Email address" />
+                <a href="#">FREE SIGN UP ></a>
               </form>
-              <a href="#">SIGN UP ></a>
             </header>
           </article>
         </section>
@@ -1191,7 +1191,7 @@
     <!--Footer -->
     <footer>
       <div class="pg-footer w-80">
-        <div class="footer-top d-lg-flex align-items-end justify-content-between">
+        <div class="footer-top d-lg-flex align-items-end justify-content-between mt-10 pb-8">
           <div class="d-lg-flex align-items-end">
             <a href="#"><img class="logo-link" src="images/newsweek-logo.jpeg" alt="newsweek logo" /></a>
             <p class="font-fam">© 2020 NEWSWEEK DIGITAL LLC</p>

@@ -207,7 +207,7 @@ main,
   border: none;
 }
 
-#search-input {
+.search-input {
   width: 3.8rem;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
@@ -291,6 +291,7 @@ footer {
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
+
   margin-right: 20px;
 }
 

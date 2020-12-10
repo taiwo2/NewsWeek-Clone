@@ -62,17 +62,15 @@
 
 .subscription,
 .subscribe article {
-  padding: 1.5rem 0;
+  /* padding: 1.7rem 0; */
+  margin-top: 1.5rem;
+  padding-right: 2px;
   background-color: #f4f5f6;
 }
 
 .subscription .sign-up,
-.subscription .subscribe {
+.subscribe {
   padding-bottom: 1.25rem;
-}
-
-.subscription header {
-  padding: 0.5rem 1rem 0 1rem;
 }
 
 .subscription h3 {
@@ -100,21 +98,13 @@
   height: 14px;
 }
 
-.sign-up figure {
-  margin: 0;
-}
-
-.group-images img {
-  width: initial;
-}
-
 .sign-up figure img {
   height: 160px;
   object-fit: cover;
 }
 
 .sign-up header {
-  padding: 1.75rem 1rem 1.25rem 1rem;
+  padding: 0 1rem 1.2rem 1rem;
   border: 1px solid #d9d9d9;
 }
 
@@ -133,6 +123,16 @@
 }
 
 @media (min-width: 768px) {
+  .subscription header {
+    padding: 4rem 4rem 0 1rem;
+  }
+
+  .sign-up header {
+    padding: 4rem 1rem 1.25rem 1rem;
+    border: 1px solid #d9d9d9;
+    margin-top: 1.5rem;
+  }
+
   .sign-up figure img {
     height: 25rem;
     width: 191px;
@@ -143,7 +143,7 @@
   }
 
   .flex-sm figure {
-    height: 25rem;
+    height: 26rem;
   }
 
   .flex-sm h3 {
@@ -160,7 +160,7 @@
   }
 
   .flex-sn header {
-    width: 250px;
+    width: 100%;
   }
 
   .flex-sn figure {
@@ -169,6 +169,6 @@
 
   .flex-sn p {
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 1rem;
   }
 }

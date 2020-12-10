@@ -20,16 +20,6 @@ section p {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .top-story-section p {
-    font-size: 0.9375rem;
-  }
-}
-
 section h2 {
   font-size: 1rem;
   font-weight: 700;
@@ -108,12 +98,6 @@ nav li:hover {
   text-decoration-color: red;
 }
 
-@media (min-width: 768px) {
-  .more-stories-section p {
-    font-size: 0.9375rem;
-  }
-}
-
 @media (min-width: 540px) {
   .more-stories-section img {
     float: none;
@@ -130,14 +114,24 @@ nav li:hover {
   background: #c2d4d7;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     font-size: 15px;
     line-height: 20px;
   }
-}
 
-@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .top-story-section p {
+    font-size: 0.9375rem;
+  }
+
+  .more-stories-section p {
+    font-size: 0.9375rem;
+  }
+
   .culture-and-travel-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -274,6 +268,77 @@ nav li:hover {
     -webkit-font-smoothing: antialiased;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .editor header {
+    width: 250px;
+    padding-bottom: 7px;
+  }
+
+  .editor h3 {
+    width: 270px;
+  }
+
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex1 img {
+    height: 130px;
+    width: 150px;
+  }
+
+  .flex1 article {
+    display: inline-flex;
+  }
+
+  .flex1 h3,
+  h4 {
+    margin-left: 7px;
+  }
+
+  .mb-3 {
+    border-bottom: 3px solid whitesmoke;
+    padding-bottom: 10px;
+  }
+
+  .word-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+
+  .word-grid img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .word1 article {
+    padding-left: 12px;
+  }
+
+  .word1 {
+    display: inline-flex;
+  }
+
+  .feat img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .editor {
+    box-sizing: border-box;
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 
