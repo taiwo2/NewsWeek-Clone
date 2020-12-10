@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" />
     <script src="https://use.fontawesome.com/93b7dd2125.js"></script>
+    <script src="https://kit.fontawesome.com/7787f36583.js" crossorigin="anonymous"></script>
     <title>Newsweek-Clone</title>
   </head>
 
@@ -30,6 +31,12 @@
     <header class="main-header container p-0">
       <div class="head-bar d-flex align-items-end justify-content-between">
         <div class="ml-4 d-lg-block d-none">
+          <div class="pb-2">
+            <a href="#" class="weather">
+            <i class="fas fa-cloud-showers-heavy"></i>
+            <strong>28° Karachi, PK ></strong>
+          </a>
+          </div>
           <time datetime="2020-02-17">Mon, Feb 17, 2020</time>
         </div>
         <div class="logo">
@@ -42,8 +49,11 @@
           </svg>
         </div>
         <div class="login d-flex align-items-center align-self-center">
-          <a href="#"><span class="d-sm-none d-lg-block d-md-block"> login </span></a>
-          <a href="#" class="bg-warning rounded pr-3 pt-3 pl-2"> Subscribe > </a>
+          <div class="d-flex align-items-center mt-1 mb-1">
+            <i class="fa fa-user fa-1x d-lg-none d-md-none"></i>
+            <a href="#" class="d-none  d-md-block"> login </a>
+            <button type="button" class="btn-sub mr-1 ml-3 mr-xl-3 pl-3 pr-3 border-0 rounded-pill font-weight-bold text-uppercase ">Subscribe <i class="fa fa-chevron-right"></i> </button>
+          </div>
           <div class="menu-icon d-lg-none">
             <div class="menu-bar"></div>
             <div class="menu-bar"></div>
