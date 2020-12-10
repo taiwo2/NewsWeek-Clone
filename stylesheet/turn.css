@@ -43,17 +43,6 @@
   border-bottom: 1px solid #ddd;
 }
 
-.the-debate > article:last-of-type {
-  border-top: 1px solid #ddd;
-  border-bottom: 4px solid #ddd;
-  margin-top: 1px;
-  text-align: right;
-}
-
-.vs {
-  position: relative;
-}
-
 .vs > div {
   position: absolute;
   margin: auto;
@@ -66,6 +55,17 @@
   line-height: 2;
 }
 
+.the-debate > article:last-of-type {
+  border-top: 1px solid #ddd;
+  border-bottom: 4px solid #ddd;
+  margin-top: 1px;
+  text-align: right;
+}
+
+.vs {
+  position: relative;
+}
+
 .vs span {
   color: white;
   width: 32px;
@@ -76,12 +76,3 @@
 }
 
 /*  tyurn */
-
-.col-md-4 {
-  border: 1px solid transparent;
-  padding: 4;
-}
-
-.col-md-4 .card {
-  border: none;
-}
