@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# News Week Clone
+# A clone of the NewsWeek Website.
 
-> One paragraph statement about the project.
+This is an exact replica of the The NewsWeek website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered
 
 Additional description about the project and its features.
 
@@ -35,7 +35,7 @@ From your command line, first clone the project:
 $ git clone https://github.com/taiwo2/NewsWeek-Clone.git
 
 # Go into the repository
-$ cd Newsweek_replica
+$ cd NewsWeek-Clone
 
 ```
 
