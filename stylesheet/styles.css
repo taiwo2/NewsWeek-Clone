@@ -374,40 +374,36 @@ footer {
   padding-left: 20px;
 }
 
-.btn-sub{
+.btn-sub {
   background-color: #ffe400;
   cursor: pointer;
   font-size: 12px;
   line-height: 25px;
 }
 
-.weather{
-cursor: pointer;
-text-decoration: none;
+.weather {
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.weather:hover{
-text-decoration: none;
+.weather:hover {
+  text-decoration: none;
 }
-
 
 @media (min-width: 768px) {
   main {
     border-bottom: 1px solid #f4f5f6;
   }
 
-  .ed-list li{
+  .ed-list li {
     border-left: gray solid 1px;
-      }
+  }
 
-  .menu-list li{
+  .menu-list li {
     border-right: gray solid 1px;
   }
 
-  .btn-sub{
-    
+  .btn-sub {
     font-size: 18px;
-    
   }
-
 }
