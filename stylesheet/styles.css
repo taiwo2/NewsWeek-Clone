@@ -74,7 +74,7 @@ main,
 
 .main-nav ul a {
   font-weight: 700;
-  font-size: 1.1875rem;
+  font-size: 1rem;
   color: #000;
 }
 
@@ -177,12 +177,12 @@ main,
 }
 
 .main-nav ul {
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 0.9375rem 0;
-  white-space: nowrap;
+  /* white-space: wrap; */
 }
 
 .main-nav ul li {

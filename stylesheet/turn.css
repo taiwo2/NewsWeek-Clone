@@ -1,5 +1,4 @@
-.main-header header
-{
+.main-header header {
   position: fixed;
   z-index: 10;
   padding-bottom: 20px;
