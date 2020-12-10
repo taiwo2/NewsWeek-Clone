@@ -1,6 +1,7 @@
-.main-header {
+.main-header header {
   position: fixed;
-  z-index: 4;
+  z-index: 10;
+  padding-bottom: 20px;
 }
 
 .the-debate .content,
