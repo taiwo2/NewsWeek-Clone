@@ -8,6 +8,18 @@
   padding-left: 1em;
 }
 
+.vs > div {
+  position: absolute;
+  margin: auto;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+
 .the-debate article:last-of-type div {
   padding-left: 0;
   padding-right: 1em;
@@ -41,18 +53,6 @@
   position: relative;
   border-top: 4px solid #ddd;
   border-bottom: 1px solid #ddd;
-}
-
-.vs > div {
-  position: absolute;
-  margin: auto;
-  top: -16px;
-  left: 0;
-  right: 0;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  line-height: 2;
 }
 
 .the-debate > article:last-of-type {
