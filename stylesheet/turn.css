@@ -1,0 +1,73 @@
+.the-debate .content,
+.opinion .content {
+  padding-left: 1em;
+}
+.the-debate article:last-of-type div {
+  padding-left: 0;
+  padding-right: 1em;
+}
+.the-debate h5,
+.opinion h5 {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.the-debate p,
+.opinion p {
+  text-transform: uppercase;
+  color: #555;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.the-debate a:hover,
+.opinion a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--nw-red);
+}
+.the-debate article {
+  padding-top: 1em;
+}
+.the-debate > article:first-of-type {
+  position: relative;
+  border-top: 4px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.the-debate > article:last-of-type {
+  border-top: 1px solid #ddd;
+  border-bottom: 4px solid #ddd;
+  margin-top: 1px;
+  text-align: right;
+}
+.vs {
+  position: relative;
+}
+.vs > div {
+  position: absolute;
+  margin: auto;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+.vs span {
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+}
+/*  tyurn */
+
+.col-md-4 {
+  border: 1px solid transparent;
+  padding: 4;
+}
+
+.col-md-4 .card {
+  border: none;
+}

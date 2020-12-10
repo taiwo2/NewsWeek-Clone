@@ -140,7 +140,7 @@ nav li:hover {
 @media (min-width: 768px) {
   .culture-and-travel-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1rem;
   }
 
@@ -245,6 +245,25 @@ nav li:hover {
 }
 
 @media (min-width: 999px) {
+  .border {
+    border: 1px solid black;
+    font-weight: 700;
+    color: gray;
+  }
+
+  .border a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .border a:hover {
+    color: red;
+  }
+
+  .trend {
+    color: black;
+  }
+
   .editor {
     box-sizing: border-box;
     border: 0 none;

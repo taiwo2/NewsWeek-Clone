@@ -159,7 +159,16 @@
     display: inline-flex;
   }
 
-  .flex-sn h3 {
-    width: 120px;
+  .flex-sn header {
+    width: 250px;
+  }
+
+  .flex-sn figure {
+    height: 22rem;
+  }
+
+  .flex-sn p {
+    font-size: 20px;
+    line-height: 2rem;
   }
 }

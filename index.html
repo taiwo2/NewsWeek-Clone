@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="stylesheet/css-reset.css" />
     <link rel="stylesheet" href="stylesheet/main.css" />
     <link rel="stylesheet" href="stylesheet/magazine.css" />
+    <link rel="stylesheet" href="stylesheet/turn.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" />
     <script src="https://use.fontawesome.com/93b7dd2125.js"></script>
@@ -71,6 +72,17 @@
           </li>
         </ul>
       </nav>
+
+      <div class="pt-2 border pb-2 font_size_20">
+        <nav class="nav d-flex d-none d-lg-flex nav-2">
+          <p class="px-3 trend pl-4" href="#">Trending</p>
+          <a class="px-3" href="#">Donald Trump</a>
+          <a class="px-3" href="#">Joe Biden</a>
+          <a class="px-3" href="#">Stimulus Package</a>
+          <a class="px-3" href="#">Coronavirus</a>
+          <a class="px-3" href="#">2020 Election</a>
+        </nav>
+      </div>
     </header>
     <main class="container d-flex flex-column">
       <div class="row pt-3">
@@ -213,8 +225,34 @@
               </header>
             </article>
           </section>
-          <section class="culture-and-travel-section bar order-3 order-md-2">
-            <h2>CULTURE & TRAVEL</h2>
+          <section id="my-turn">
+            <h2>My Turn</h2>
+
+            <div class="container-fluid row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="images/manhattan-beach-california-family-photo.jpg" alt="wau" />
+                  <div class="card-body">'My Mom Died From COVID-19 With Strangers at Her Side'</div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="images/manhattan-beach-california-family-photo.jpg" alt="waliy" />
+                  <div class="card-body">I Am A Black Father With White Kids. I've Been Accused Of Kidnapping Them'</div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="images/manhattan-beach-california-family-photo.jpg" alt="anything" />
+                  <div class="card-body">'My Home Was Burned Down In The Oregon Fires'</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="culture-and-travel-section bar order-2 order-md-2 mb-2">
+            <h2>My Turn</h2>
             <article>
               <figure>
                 <img src="images/floyd.jpg" alt="Underwater Art" />
@@ -223,12 +261,6 @@
                 <h3>
                   <a href="#"> These Underwater Art Exhibits Are Helping to Save Our Oceans </a>
                 </h3>
-                <p>
-                  British eco-artist Jason deCaires Taylor creates eerie undersea worlds that blend sculpture and marine life, creating havens for coral to regenerate and new ecosystems to thrive.
-                </p>
-                <div class="mini-category">
-                  <a href="#">Travel</a>
-                </div>
               </header>
             </article>
             <article>
@@ -239,10 +271,6 @@
                 <h3>
                   <a href="#"> In Cognac, Robots Run the Vines </a>
                 </h3>
-                <p>Vineyard technology is extending from robots to the creation of a new type of disease-resistant grape that may be the solution for the wine region's future production.</p>
-                <div class="mini-category">
-                  <a href="#">Vineyards</a>
-                </div>
               </header>
             </article>
             <article>
@@ -253,27 +281,50 @@
                 <h3>
                   <a href="#"> Subway Stations That Will Stop You in Your Tracks </a>
                 </h3>
-                <p>From space-age designs to murals, artists and architects have transformed these 10 stunning stations around the world into contemplative and artistic spaces.</p>
-                <div class="mini-category">
-                  <a href="#">Architecture</a>
+              </header>
+            </article>
+          </section>
+
+          <section class="culture-and-travel-section bar order-2 order-md-2 mb-2">
+            <h2>CULTURE & TRAVEL</h2>
+            <article>
+              <figure>
+                <img src="images/floyd.jpg" alt="Underwater Art" />
+
+                <div class="category">
+                  <a href="#">Travel</a>
                 </div>
+              </figure>
+              <header>
+                <h3>
+                  <a href="#"> These Underwater Art Exhibits Are Helping to Save Our Oceans </a>
+                </h3>
               </header>
             </article>
             <article>
               <figure>
-                <img src="https://d.newsweek.com/en/full/1556716/twa-hotel.jpg?w=397&h=265&f=7af1ce5444b4a2b638b278b6207aeb3a" alt="Airport Restaurants" />
+                <img src="images/chrissy-teigen.jpg" alt="Robots" />
+                <div class="category">
+                  <a href="#">Vineyards</a>
+                </div>
               </figure>
               <header>
                 <h3>
-                  <a href="#"> Airport Restaurants Worthy of a Layover </a>
+                  <a href="#"> In Cognac, Robots Run the Vines </a>
                 </h3>
-                <p>
-                  We're living in a golden age of airport dining. Maybe someday travelers in economy class will be so lucky to eat better food on flights. Until that happens, you can have an epicurean
-                  feast at the airport before your flight and smugly pass on the chicken or pasta option on board the plane.
-                </p>
-                <div class="mini-category">
-                  <a href="#">Travel</a>
+              </header>
+            </article>
+            <article>
+              <figure>
+                <img src="https://d.newsweek.com/en/full/1564962/cul-map-undergroundsubways-09-91029419.jpg?w=397&h=265&f=c75ea7fe40bca26ffbb19f21fccf1054" alt="Subway Stations" />
+                <div class="category">
+                  <a href="#">Architecture</a>
                 </div>
+              </figure>
+              <header>
+                <h3>
+                  <a href="#"> Subway Stations That Will Stop You in Your Tracks </a>
+                </h3>
               </header>
             </article>
           </section>
@@ -405,7 +456,32 @@
           </section>
         </div>
         <div class="right-side order-3 col-12 col-lg-4">
+          <!-- dabatw -->
           <div class="opinion-bar d-lg-block d-md-block">
+            <section class="the-debate">
+              <h2>Debate</h2>
+
+              <article class="d-flex flex-row">
+                <img src="https://d.newsweek.com/en/full/1567126/joel-whitney.png?w=63&h=63&f=8666873acf66ed24bd6230dacfcc0259" alt="ee" />
+                <div class="content">
+                  <h5><a href="#">The Time Is Now to Recommit to a National Assault Weapon Ban</a></h5>
+                  <p class="mb-4">By <a href="#">Eric Swalwell</a></p>
+                </div>
+              </article>
+
+              <div class="vs">
+                <div><span>VS</span></div>
+              </div>
+
+              <article class="d-flex flex-row">
+                <img class="order-2" src="images/tim-phillips.png" alt="" />
+                <div class="content">
+                  <h5><a href="#">So-Called 'Assault Weapon' Ban Is Unconstitutional Political Grandstanding</a></h5>
+                  <p>By <a href="#">Jody Hice</a></p>
+                </div>
+              </article>
+            </section>
+            <!-- date -->
             <section class="opinion-section bar">
               <h2>OPINION</h2>
               <article>
@@ -1100,6 +1176,7 @@
                   All Access + Weekly Delivery. <br />
                   Choose A Membership That's Perfect for You!
                 </p>
+                <br />
                 <a href="#"
                   >SUBSCRIBE >
                   <!-- <i class="icon i-right-arrow"></i> -->
@@ -1117,6 +1194,9 @@
             <header>
               <h3>The Starting 5</h3>
               <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+              <form class="news-form for-pad">
+                <input type="text" name="email" class="form-text ml-md-2 ml-lg-0 mb-3" placeholder="Email address" />
+              </form>
               <a href="#">SIGN UP ></a>
             </header>
           </article>
