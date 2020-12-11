@@ -133,7 +133,7 @@ main,
   }
 
   .auth .icon {
-    display: block !important;
+    display: block;
   }
 }
 

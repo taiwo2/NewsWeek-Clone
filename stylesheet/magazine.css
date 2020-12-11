@@ -62,7 +62,6 @@
 
 .subscription,
 .subscribe article {
-  /* padding: 1.7rem 0; */
   margin-top: 1.5rem;
   padding-right: 2px;
   background-color: #f4f5f6;
@@ -108,12 +107,6 @@
   border: 1px solid #d9d9d9;
 }
 
-.group-images {
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
 .group-images figure:first-of-type {
   transform: translateX(44px);
 }
@@ -136,39 +129,5 @@
   .sign-up figure img {
     height: 25rem;
     width: 191px;
-  }
-
-  .flex-sm {
-    display: inline-flex;
-  }
-
-  .flex-sm figure {
-    height: 26rem;
-  }
-
-  .flex-sm h3 {
-    font-size: 20px;
-  }
-
-  .flex-sm p {
-    font-size: 20px;
-    line-height: 2rem;
-  }
-
-  .flex-sn {
-    display: inline-flex;
-  }
-
-  .flex-sn header {
-    width: 100%;
-  }
-
-  .flex-sn figure {
-    height: 22rem;
-  }
-
-  .flex-sn p {
-    font-size: 20px;
-    line-height: 1rem;
   }
 }

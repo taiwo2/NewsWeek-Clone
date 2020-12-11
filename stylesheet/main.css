@@ -26,7 +26,7 @@ section h2 {
   color: #999;
 }
 
-section h3 {
+section {
   font-size: 13px;
   font-weight: 700;
 }
@@ -225,13 +225,6 @@ nav li:hover {
     margin-right: 30px;
   }
 
-  .h3 {
-    font-size: 22px;
-    padding-left: 14px;
-    float: right;
-    font-weight: 700;
-  }
-
   .h3:hover {
     text-decoration: underline;
     text-decoration-color: rgba(255, 68, 0, 0.967);
@@ -269,25 +262,6 @@ nav li:hover {
 }
 
 @media (min-width: 768px) {
-  .flex1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .flex1 img {
-    height: 130px;
-    width: 150px;
-  }
-
-  .flex1 article {
-    display: inline-flex;
-  }
-
-  .flex1 h3,
-  h4 {
-    margin-left: 7px;
-  }
-
   .mb-3 {
     border-bottom: 3px solid whitesmoke;
     padding-bottom: 10px;
@@ -301,7 +275,6 @@ nav li:hover {
 
   .word-grid img {
     height: 100%;
-    width: 100%;
   }
 
   .word1 article {
@@ -346,25 +319,6 @@ nav li:hover {
     width: 270px;
   }
 
-  .flex1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .flex1 img {
-    height: 130px;
-    width: 150px;
-  }
-
-  .flex1 article {
-    display: inline-flex;
-  }
-
-  .flex1 h3,
-  h4 {
-    margin-left: 7px;
-  }
-
   .mb-3 {
     border-bottom: 3px solid whitesmoke;
     padding-bottom: 10px;
@@ -378,7 +332,6 @@ nav li:hover {
 
   .word-grid img {
     height: 100%;
-    width: 100%;
   }
 
   .word1 article {
